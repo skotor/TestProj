@@ -13,6 +13,8 @@ TForm1 *Form1;
 __fastcall TForm1::TForm1(TComponent* Owner)
         : TForm(Owner)
 {
+// Häpp
+
 AnsiString s = "0";
 if (IsNumeric('0'))
    Label1->Caption="JA";
